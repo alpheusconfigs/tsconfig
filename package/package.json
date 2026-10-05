@@ -11,11 +11,11 @@
         "js",
         "javascript"
     ],
-    "homepage": "https://github.com/alpheuscfg/tsconfig",
-    "bugs": "https://github.com/alpheuscfg/tsconfig/issues",
+    "homepage": "https://github.com/alpheusconfigs/tsconfig",
+    "bugs": "https://github.com/alpheusconfigs/tsconfig/issues",
     "repository": {
         "type": "git",
-        "url": "https://github.com/alpheuscfg/tsconfig.git",
+        "url": "https://github.com/alpheusconfigs/tsconfig.git",
         "directory": "package"
     },
     "license": "MIT",
