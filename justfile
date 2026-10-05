@@ -51,7 +51,7 @@ clean-all-macos: clean-all-linux
 
 # Clean everything (Windows)
 clean-all-windows:
-    Remove-Item -Recurse -Force ./node_modules
+    if (Test-Path "./node_modules") { Remove-Item -Recurse -Force "./node_modules" }
 
 # Clean everything
 clean-all:
