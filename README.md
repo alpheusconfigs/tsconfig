@@ -1,10 +1,10 @@
-# Typescript Configuration
+# TypeScript Configuration
 
 A shareable TypeScript configuration.
 
 ## Usage
 
-Implement the configuration into `tsconfig.json`:
+Add the configuration to your `tsconfig.json`:
 
 ```json
 {
@@ -12,7 +12,7 @@ Implement the configuration into `tsconfig.json`:
 }
 ```
 
-Or for library:
+Or for a library:
 
 ```json
 {
@@ -30,7 +30,7 @@ For TypeScript 5, please use the following configuration:
 }
 ```
 
-Or for library:
+Or for a library:
 
 ```json
 {

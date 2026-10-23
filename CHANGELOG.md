@@ -23,7 +23,7 @@ For TypeScript 5 support, please update the configuration:
 }
 ```
 
-Or for library:
+Or for a library:
 
 ```diff
 {

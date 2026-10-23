@@ -1,4 +1,4 @@
-# Typescript Configuration
+# TypeScript Configuration
 
 A shareable TypeScript configuration.
 
