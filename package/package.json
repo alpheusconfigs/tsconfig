@@ -33,7 +33,7 @@
         "./6/lib": "./ts/6/tsconfig.lib.json",
         "./package.json": "./package.json"
     },
-    "main": "./tsconfig.json",
+    "main": "./ts/5/tsconfig.json",
     "files": [
         "ts"
     ],
