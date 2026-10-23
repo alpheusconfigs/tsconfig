@@ -1,5 +1,5 @@
 {
-    "extends": "@apst/tsconfig/lib",
+    "extends": "@apst/tsconfig/6/lib",
     "include": [
         "src/**/*"
     ]

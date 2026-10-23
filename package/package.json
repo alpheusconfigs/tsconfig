@@ -31,6 +31,8 @@
         "./5/lib": "./ts/5/tsconfig.lib.json",
         "./6": "./ts/6/tsconfig.json",
         "./6/lib": "./ts/6/tsconfig.lib.json",
+        "./7": "./ts/6/tsconfig.json",
+        "./7/lib": "./ts/6/tsconfig.lib.json",
         "./package.json": "./package.json"
     },
     "main": "./ts/5/tsconfig.json",
