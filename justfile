@@ -3,6 +3,8 @@ set windows-shell := ["pwsh", "-Command"]
 
 biome := "pnpm exec biome"
 
+tsc := "pnpm exec tsc"
+
 publish := "pnpm publish --access public"
 
 # Default action
@@ -31,8 +33,13 @@ typos:
 # Lint code
 lint: lslint typos
 
+# Run tests
+test:
+    pnpm -r --filter './tests/*' exec {{tsc}} -p tsconfig.json --noEmit
+    pnpm -r --filter './tests/*' exec {{tsc}} -p tsconfig.lib.json --noEmit
+
 # Check code
-check: fmt lint
+check: fmt lint test
 
 # Bump package versions
 ver VERSION:

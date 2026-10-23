@@ -1,0 +1,8 @@
+{
+    "private": true,
+    "type": "module",
+    "devDependencies": {
+        "@apst/tsconfig": "workspace:*",
+        "typescript": "5.0.2"
+    }
+}

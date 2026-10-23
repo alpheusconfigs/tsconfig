@@ -1,0 +1,6 @@
+{
+    "extends": "@apst/tsconfig/5",
+    "include": [
+        "src/**/*"
+    ]
+}
