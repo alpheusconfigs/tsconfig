@@ -1,8 +1,10 @@
 ls:
-    .dir: kebab-case
+    package:
+        .dir: kebab-case
 
 ignore:
     - .git
+    - .github
     - __MACOSX
     - "**/__MACOSX"
     - .DS_Store

@@ -33,6 +33,10 @@ typos:
 # Lint code
 lint: lslint typos
 
+# Lint code with Biome
+lint-biome:
+    {{biome}} lint .
+
 # Run tests
 test:
     pnpm -r --filter './tests/*' exec {{tsc}} -p tsconfig.json --noEmit
