@@ -38,10 +38,6 @@ Or for a library:
 }
 ```
 
-## Changelog
-
-For the changelog, please refer to the [changelog](./CHANGELOG.md).
-
 ## License
 
 This project is licensed under the terms of the MIT license.
