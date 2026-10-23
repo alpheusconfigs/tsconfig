@@ -34,6 +34,16 @@ lint: lslint typos
 # Check code
 check: fmt lint
 
+# Bump package versions
+ver VERSION:
+    pnpm version \
+        --no-git-tag-version \
+        --no-commit-hooks \
+        --no-git-checks \
+        --allow-same-version \
+        --recursive \
+        {{VERSION}}
+
 # Publish as dry-run
 publish-try:
     cd ./package && {{publish}} --dry-run
