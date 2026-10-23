@@ -65,6 +65,8 @@ publish:
 
 # Clean everything (Linux)
 clean-all-linux:
+    rm -rf ./tests/*/node_modules
+
     rm -rf ./node_modules
 
 # Clean everything (macOS)
@@ -72,6 +74,8 @@ clean-all-macos: clean-all-linux
 
 # Clean everything (Windows)
 clean-all-windows:
+    if (Test-Path "./tests/*/node_modules") { Remove-Item -Recurse -Force "./tests/*/node_modules" }
+
     if (Test-Path "./node_modules") { Remove-Item -Recurse -Force "./node_modules" }
 
 # Clean everything
