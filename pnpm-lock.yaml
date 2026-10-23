@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@apst/biome':
-        specifier: ~0.3.0
-        version: 0.3.0(@biomejs/biome@2.4.7)
+        specifier: ~0.3.2
+        version: 0.3.2(@biomejs/biome@2.4.7)
       '@biomejs/biome':
         specifier: ^2.4.7
         version: 2.4.7
@@ -46,8 +46,8 @@ importers:
 
 packages:
 
-  '@apst/biome@0.3.0':
-    resolution: {integrity: sha512-9KSLfR/Ts+YrG5nPboL+aUqMSevKC7TFkouLq/UN4E6kOEORkZY4U8cEA84wUmfjD0kCNxUMOkAoY6Ws/JaK8Q==}
+  '@apst/biome@0.3.2':
+    resolution: {integrity: sha512-wNH6CySr77KvKVPZo2Ru6VnbGHrdx0T43m53veb2ybOW36W+dTYS6mqpSawjv7/OEXVpXxl2hmoqfBXT3DpUhw==}
     peerDependencies:
       '@biomejs/biome': ^2.0.0
     peerDependenciesMeta:
@@ -248,7 +248,7 @@ packages:
 
 snapshots:
 
-  '@apst/biome@0.3.0(@biomejs/biome@2.4.7)':
+  '@apst/biome@0.3.2(@biomejs/biome@2.4.7)':
     optionalDependencies:
       '@biomejs/biome': 2.4.7
 
