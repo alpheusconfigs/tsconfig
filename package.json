@@ -2,6 +2,6 @@
     "private": true,
     "devDependencies": {
         "@apst/biome": "~0.3.2",
-        "@biomejs/biome": "^2.6.2"
+        "@biomejs/biome": "^2.6.3"
     }
 }
